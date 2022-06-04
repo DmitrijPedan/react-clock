@@ -1,0 +1,41 @@
+.hand {
+  background-color: white;
+  border-radius: 01em;;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: bottom center;
+  &.hour {
+    z-index: 22;
+    width: .02em;
+    height: 28%;
+    transform-origin: bottom center;
+    opacity: .8;
+  }
+  &.min {
+    z-index: 23;
+    width: .01em;
+    height: 35%;
+    opacity: .8;
+  }
+  &.sec {
+    width: .005em;
+    height: 55%;
+    top: calc(60% + (.005em*2));
+    background-color: red;
+    transform-origin: center 80%;
+    z-index: 28;
+    &:before {
+      content: '';
+      border: 2px solid white;
+      width: .03em;
+      height: .03em;
+      position: absolute;
+      background-color: red;
+      top: 80%;
+      left: 50%;
+      border-radius: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+  }
+}

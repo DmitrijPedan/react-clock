@@ -1,0 +1,23 @@
+.wrap {
+  position: absolute;
+  width: 45%;
+  height: .08em;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 10;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.month {
+  color: grey;
+  font-size: .06em;
+}
+
+.day {
+  color: grey;
+  font-size: .06em;
+}

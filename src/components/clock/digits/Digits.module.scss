@@ -1,0 +1,39 @@
+.dash {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: bottom center;
+  z-index: 1;
+  width: 4px;
+  height: 48%;
+  span {
+    position: absolute;
+    left: 50%;
+    display: none;
+    top: 7%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: .08em;
+    font-weight: bold;
+    color: white;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    width: .003em;
+    height: .01em;;
+    background-color: white;
+  }
+  &.long {
+    span {
+      display: inline-block;
+    }
+    &:after {
+      width: .005em;
+      height: .03em;
+    }
+  }
+}

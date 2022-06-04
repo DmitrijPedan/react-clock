@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  h4 {
+    color: white;
+  }
+}
+
+.face {
+  border: 1px solid black;
+  background-color: black;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+}
+
+
+
+
+

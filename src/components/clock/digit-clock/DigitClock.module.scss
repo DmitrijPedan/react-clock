@@ -1,0 +1,33 @@
+.digital {
+  $size: .06em;
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+  transform: translateX(-50%);
+  height: $size;
+  z-index: 13;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: grey;
+  &:after {
+    content: 'AM';
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: ($size / 2);
+    transform: translateX(100%);
+  }
+  &.pm:after {
+    content: 'PM';
+  }
+  span {
+    font-size: $size;
+    line-height: 1em;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+  }
+  .ampm {
+    font-size: ($size / 2);
+  }
+}
