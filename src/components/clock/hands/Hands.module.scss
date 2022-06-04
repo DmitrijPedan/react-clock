@@ -10,13 +10,13 @@
     width: .02em;
     height: 28%;
     transform-origin: bottom center;
-    opacity: .8;
+    opacity: .7;
   }
   &.min {
     z-index: 23;
     width: .01em;
-    height: 35%;
-    opacity: .8;
+    height: 34%;
+    opacity: .7;
   }
   &.sec {
     width: .005em;
@@ -27,7 +27,7 @@
     z-index: 28;
     &:before {
       content: '';
-      border: 2px solid white;
+      border: 3px solid white;
       width: .03em;
       height: .03em;
       position: absolute;

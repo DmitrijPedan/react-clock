@@ -4,8 +4,8 @@ import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-				<Clock size={'50vw'}/>
+    <div className="app">
+				<Clock size={'60vh'}/>
     </div>
   );
 }

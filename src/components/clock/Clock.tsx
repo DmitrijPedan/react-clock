@@ -23,7 +23,7 @@ const Clock = ({size}: IClockProps) => {
 			<div className={classes.face} style={{fontSize: size}}>
 				<Digits/>
 				<Hands date={date} />
-				<ClockLabel label={'React Clock'}/>
+				<ClockLabel label={'Hand Made'}/>
 				<MonthDay date={date}/>
 				<DigitClock date={date}/>
 			</div>
