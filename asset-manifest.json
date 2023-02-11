@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/DmitrijPedan/react-clock/static/css/main.22093083.css",
-    "main.js": "/DmitrijPedan/react-clock/static/js/main.59beb641.js",
-    "index.html": "/DmitrijPedan/react-clock/index.html",
-    "main.22093083.css.map": "/DmitrijPedan/react-clock/static/css/main.22093083.css.map",
-    "main.59beb641.js.map": "/DmitrijPedan/react-clock/static/js/main.59beb641.js.map"
+    "main.css": "/DmitrijPedan/react-clock-page/static/css/main.22093083.css",
+    "main.js": "/DmitrijPedan/react-clock-page/static/js/main.59beb641.js",
+    "index.html": "/DmitrijPedan/react-clock-page/index.html",
+    "main.22093083.css.map": "/DmitrijPedan/react-clock-page/static/css/main.22093083.css.map",
+    "main.59beb641.js.map": "/DmitrijPedan/react-clock-page/static/js/main.59beb641.js.map"
   },
   "entrypoints": [
     "static/css/main.22093083.css",
